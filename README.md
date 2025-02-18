@@ -25,15 +25,15 @@ Si otras personas han hecho cambios en main, necesitas traerlos a tu rama-tarea 
 - `git pull origin main`:   SE TRAEN los últimos cambios de main
 - `git checkout feature/auth`:   Me cambio a la RAMA-TAREA (ej: feature/auth)
 - `git merge main`:   Traigo los cambios de la RAMA PRINCIPAL a la RAMA-TAREA
+- `git push origin feature/auth`:   Subo los cambios a la rama-tarea
 
 
-
-## *Pasos para integrar la rama-tarea, una vez finalizada, a main*
-
+## *Pasos para integrar la rama-tarea, una vez finalizada, a main con PULL REQUEST*
 ¿Por qué se hace?
-Cuando finalizas tu rama-tarea (ej: feature/auth) necesitas integrar esos cambios en main para que formen parte del código principal.
+Cuando finalizas tu rama-tarea (ej: feature/auth) necesitas integrar esos cambios en main para que formen parte del código principal. Con pull request integramos estos cambios desde github.
 
-- `git checkout main`  :   Me cambio a la RAMA PRINCIPAL
-- `git pull origin main`:   Me aseguro de que main está actualizado
-- `git merge feature/auth`:   Fusiono los cambios de feature/auth en main
-- `git push origin main`:   Subo los cambios a GitHub
+- `IR a PULL REQUESTS` --> "New Pull Request"
+- `SELECCIONAR la rama-tarea (feature/auth) y comparar con la rama principal`
+- `EXPLICAR los cambios y SOLICITAR REVISIÓN de otro COLABORADOR`
+-	`SI TODO ESTÁ OK`
+- `MERGE` --> Se fusionan las ramas
