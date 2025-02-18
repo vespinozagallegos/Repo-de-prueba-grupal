@@ -14,11 +14,11 @@ Repositorio creado para para practicar el flujo de trabajo GITFLOW con 6 colabor
    git clone URL_DEL_REPO
 
 
-# ¿Como mantener el CÓDIGO ACTUALIZADO?
+# ¿Como mantener el código actualizado?
 
 ## *Pasos para actualizar la rama-tarea con los cambios de main*
 
-##¿Por qué se hace?
+¿Por qué se hace?
 Si otras personas han hecho cambios en main, necesitas traerlos a tu rama (auth-feature) para evitar conflictos más adelante
 
 - `git checkout main`   :   Entro a la RAMA PRINCIPAL
@@ -30,7 +30,7 @@ Si otras personas han hecho cambios en main, necesitas traerlos a tu rama (auth-
 
 ## *Pasos para integrar la rama-tarea, una vez finalizada, a main*
 
-###¿Por qué se hace?
+¿Por qué se hace?
 Cuando finalizas una tarea en auth-feature, necesitas integrar esos cambios en main para que formen parte del código principal.
 
 - `git checkout main`  :   Me cambio a la RAMA PRINCIPAL
