@@ -8,6 +8,11 @@ Repositorio creado para para practicar el flujo de trabajo GITFLOW con 6 colabor
 - `release/nombre`: Ramas para preparar versiones.
 - `hotfix/nombre`: Ramas para corregir errores críticos en producción.
 
+## ¿Cómo crear ramas?
+Cada integrante deberá trabajar en una rama determinada según la tarea. Por ejemplo, para autenticación se creará la rama feature/auth con el siguiente comando:
+
+- `git checkout -b feature/auth`:   feature/auth es el nombre de la rama-tarea
+
 ## ¿Cómo contribuir?
 1. Clonar el repositorio:  
    ```bash
